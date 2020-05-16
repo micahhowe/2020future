@@ -29,7 +29,14 @@ function sum (num1, num2) {
 // Create a function called 'lovesCodeChecker' that takes in a single parameter called 'x'. Check to see if 'x' is equal to true. If it is, return a true boolean. If 'x' does not equal true, return a false boolean.  
 
 //Code here
-
+function lovesCodeChecker (x) {
+	if(x == true){
+		return true;
+	}
+	else{
+		return false;
+	}
+}
 //////////////////PROBLEM 6////////////////////
 
 // Create a function called 'oddChecker' that takes in one parameter, 'num'. Your function should check to see if the parameter is even or odd. If the parameter is odd, return 'the number is odd'. If the number is even, return 'the number is even'.
