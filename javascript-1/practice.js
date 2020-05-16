@@ -42,7 +42,14 @@ function lovesCodeChecker (x) {
 // Create a function called 'oddChecker' that takes in one parameter, 'num'. Your function should check to see if the parameter is even or odd. If the parameter is odd, return 'the number is odd'. If the number is even, return 'the number is even'.
 
 //Code here
-
+function oddChecker(num){
+	if(num % 2){
+		return 'the number is odd';
+	}
+	else{
+		return 'the number is even';
+	}
+}
 //////////////////PROBLEM 7////////////////////
 
 // Create a function called 'iLove' that takes in two string parameters, 'name' and 'love'. Have the function take the two parameters and return a string that says "NAMEPARAM loves LOVEPARAM" with the appropriate parameters in the string. e.g. "Joseph loves music"
