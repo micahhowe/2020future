@@ -3,7 +3,7 @@
 // Create a variable called 'myName' with a value that is your name. 
 
 // Code here
-
+var myName = 'Micah';
 //////////////////PROBLEM 2////////////////////
 
 // Create a variable called 'faveNum' with a value that is your favorite number. 
