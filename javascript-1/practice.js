@@ -65,7 +65,7 @@ function iLove(name, love){
 const faveColors = ['red', 'green', 'black']
 
 //Code Here
-
+var colorCopy = faveColors.slice(0,2)
 //////////////////PROBLEM 9////////////////////
 
 // Add a fourth color to the end of the 'colorCopy' array using push.
