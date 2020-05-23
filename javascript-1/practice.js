@@ -55,6 +55,9 @@ function oddChecker(num){
 // Create a function called 'iLove' that takes in two string parameters, 'name' and 'love'. Have the function take the two parameters and return a string that says "NAMEPARAM loves LOVEPARAM" with the appropriate parameters in the string. e.g. "Joseph loves music"
 
 //Code Here
+function iLove(name, love){
+	return name + " " + "loves" + " " + love;
+}
 
 //////////////////PROBLEM 8////////////////////
 
